@@ -1,0 +1,132 @@
+/*Variables*/
+
+:root
+{
+    --red-color:#FF4757;
+    --white-color: white;
+    --espacio: 10px;
+    --sombra: 0 0 5px #00000040;
+}
+
+html,body
+{
+    padding: 0;
+    margin: 0;
+    font-size:  12px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+nav
+{
+    display: flex;
+    background-color: var(--red-color);
+    padding: var(--espacio);
+    color: var(--white-color);
+    justify-content: space-between;
+    align-items: center;
+    min-height: 60px;
+    box-shadow: var(--sombra);
+}
+
+nav ul
+{
+    display: flex;
+}
+
+nav li
+{
+    padding-left: 20px;
+    list-style: none;
+}
+
+nav li a
+{
+    color: #E8E8E8;
+    text-decoration: none;
+}
+nav li a:hover
+{
+    color: var(--white-color);
+}
+
+.main_section
+{
+    padding: 20%;
+    text-align: center;
+}
+
+.products
+{
+    background-image: url("Trazado 1.png");
+    max-height: 50px;
+    background-size: cover;
+    background-position: center top;
+    padding: 15%;
+    display: flex;
+}
+
+.product
+{
+    padding: var(--espacio);
+    margin-top: -230px;
+}
+
+.product .content
+{
+    border-radius: var(--espacio);
+    background-color: var(--white-color);
+    padding: 10px;
+    box-shadow: var(--sombra);
+}
+
+.img_content
+{
+    text-align: center;
+}
+
+.main_button
+{
+    background-color: var(--red-color);
+    width: 100%;
+    padding: var(--espacio);
+    font-size:  12px;
+    color: var(--white-color);
+    border: 0;
+    cursor: pointer;
+    border-radius: var(--espacio);
+    box-shadow: var(--sombra);
+}
+
+.main_button:hover
+{
+    background-color: #f56d78;
+}
+
+.modulo_pago
+{
+    background-color: var(--white-color);
+    padding: var(--espacio);
+}
+
+.modulo_pago_images
+{
+    text-align: center;
+    width: 100%;
+    margin: auto;
+}
+
+.data
+{
+    margin-top: var(--espacio);
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid ;
+    box-shadow: var(--sombra);
+    box-sizing: border-box;
+}
+
+.modulo_pago .main_btn
+{
+    margin-top: 10px;
+}

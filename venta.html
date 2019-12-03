@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Compra web</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mobile.css">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="animatio.css">
+    <link rel="stylesheet" href="grid.css">
+</head>
+<body>
+    <!-- Empieza el nvar -->
+    <nav class="fadeInDown">
+        <div class="Logo">
+            <h1>Venta</h1>
+        </div>
+        <div class="nav_options">
+            <ul>
+                <li><a href="#">Faqs</a></li>
+                <li><a href="#">Descripcion</a></li>
+            </ul>           
+        </div>
+    </nav>
+    <!-- Termina el nvar-->  
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="container">
+        <div class="row">
+            <div class="col-4">
+                <div class="modulo_pago">
+                    <div class="modulo_pago_images">
+                        <img src="Perfume_1.png" alt="" width="250px">                        
+                    </div>
+                    <h1>Producto 1</h1>
+                    <p>perfume para hombre</p>
+                </div> 
+            </div>
+            <div class="col-8">
+                <div class="modulo_pago">
+                    <form action="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=52T6JCFSY89FG" method="POST">
+                        <label for="name">Nombre</label>
+                        <br>
+                        <input type="text" placeholder="" name="name" class="data">
+                        <br>
+                        <label for="mail">E-mail</label>
+                        <br>
+                        <input type="text" placeholder="" name="email" class="data">
+                        <br>
+                        <label for="phone">Telefono</label>
+                        <br>
+                        <input type="text" placeholder="" name="phone" class="data">
+                        <br>
+                        <div class="main_btn">
+                            <input type="submit" class="main_button" name="submit" value="Confirmar pago">
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="app.js"></script>
+</body>
+</html>
